@@ -7967,20 +7967,14 @@
           "interfaces": null,
           "enumValues": [
             {
-              "name": "NOTICE_NAMESPACE_CHANGE",
-              "description": "A change to an existing feature",
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
-              "name": "NOTICE_NAMESPACE_EMAIL_SUGGESTION",
-              "description": "The user has had an email suggested to them",
-              "isDeprecated": false,
-              "deprecationReason": null
-            },
-            {
               "name": "NOTICE_NAMESPACE_FEATURE",
               "description": "A new feature was added",
+              "isDeprecated": false,
+              "deprecationReason": null
+            },
+            {
+              "name": "NOTICE_NAMESPACE_CHANGE",
+              "description": "A change to an existing feature",
               "isDeprecated": false,
               "deprecationReason": null
             }
