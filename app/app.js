@@ -37,7 +37,6 @@ window["Webpack"] = {
     "autosize": require("autosize"),
 
     "components/build/EmailPrompt": require("./components/build/EmailPrompt").default,
-    "components/build/UnblockPromptRequiredFieldNotice": require("./components/build/UnblockPromptRequiredFieldNotice").default,
     "components/icons/BuildState": require("./components/icons/BuildState").default,
     "components/layout/Footer": require("./components/layout/Footer").default,
     "components/layout/Navigation": require("./components/layout/Navigation").default,
@@ -57,6 +56,8 @@ window["Webpack"] = {
     "components/shared/Icon": require("./components/shared/Icon").default,
     "components/user/BuildCountsBreakdown": require("./components/user/BuildCountsBreakdown").default,
     "components/user/SettingsMenu": require("./components/user/SettingsMenu").default,
+    "components/PipelinesWelcome": require("./components/organization/Welcome").default,
+    "components/pipeline/Teams": require("./components/pipeline/Teams").default,
     "lib/builds": require("./lib/builds"),
     "lib/commits": require("./lib/commits"),
     "lib/date": require("./lib/date"),

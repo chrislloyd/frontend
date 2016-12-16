@@ -18,6 +18,7 @@ const QUERIES = {
   "organization_show/viewer": Relay.QL`
     query PipelinesListViewer {
       viewer {
+        id
         notice(namespace: NOTICE_NAMESPACE_FEATURE, scope: "pipelines-page-1-0") {
           id
           dismissedAt
@@ -155,6 +156,7 @@ const QUERIES = {
   "navigation/viewer": Relay.QL`
     query NavigationViewer {
       viewer {
+        id
         user {
           name,
           avatar {
